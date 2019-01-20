@@ -27,3 +27,9 @@
     * **register** The register should only be used for variables that require quick access such as counters. It should also be noted that defining `'register'` does not mean that the variable will be stored in a register. It means that it MIGHT be stored in a register depending on hardware and implementation restrictions.
     * **static** storage class instructs the compiler to keep a local variable in existence during the life-time of the program instead of creating and destroying it each time it.
     * **extern** storage class is used to give a reference of a global variable that is visible to ALL the program files.
+
+* to compile 
+    > gcc -Wall hello.c
+
+* to run 
+    > ./a.out

@@ -21,3 +21,6 @@ void func(void){
     printf("i is %d and count is %d \n",i,count);
 
 }
+
+// build && run 
+// gcc main.c storage_classes.c support.c && ./a.out
