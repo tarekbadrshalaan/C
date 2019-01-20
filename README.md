@@ -1,4 +1,5 @@
-# Studying C Programming Language
+# C
+## Learning C Programming language 
 
 ## Sources :
 * **[![tutorialspoint](https://www.tutorialspoint.com/cprogramming/)](https://www.tutorialspoint.com/cprogramming/)**
