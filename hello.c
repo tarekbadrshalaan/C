@@ -7,10 +7,10 @@ int main()
 }
 
 
-//  to compile 
+//  To Compile 
 //  gcc -Wall hello.c
 
-//  to run 
+//  To Run 
 // ./a.out
 
 
