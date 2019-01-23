@@ -12,7 +12,3 @@ int main()
 
 //  To Run 
 // ./a.out
-
-
-
-
