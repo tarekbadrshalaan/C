@@ -12,6 +12,8 @@
   * `%E` -> `double`
   * `%f` -> `float`
   * `%c` -> `char`
+  * `%p` -> `pointer`
+
 
 
 * Lvalues and Rvalues in C
@@ -33,3 +35,12 @@
 
 * to run 
     > ./a.out
+
+* ### Pointers
+    * A pointer is a variable whose value is the address of another variable, i.e., direct address of the memory location.
+    * type is the pointer's base type; it must be a valid C data type. The asterisk `'*'` used to declare a pointer.
+        * int    *ip;    **pointer to an integer**
+        * double *dp;    **pointer to a double**
+        * float  *fp;    **pointer to a float**
+        * char   *ch     **pointer to a character**
+
