@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main (){
+// int main (){
+void pointers (){
     int var1;
     char var2[10];
 
@@ -24,6 +25,4 @@ int main (){
     /**/
     int *nullPointer = NULL;
     printf("The value of nullPointer is : %p\n", nullPointer);
-
-    return 0;
 }
