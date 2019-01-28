@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-const int MAX = 3;
 void pointerArithmetic()
 {
+    const int MAX = 3;
     int var[] = {10, 20, 30};
 
     // incrementing.

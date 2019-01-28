@@ -1,4 +1,4 @@
 
 # Last Break Point:
 
-https://www.tutorialspoint.com/cprogramming/c_pointers.htm
+https://www.tutorialspoint.com/cprogramming/c_strings.htm

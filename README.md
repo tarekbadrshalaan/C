@@ -13,6 +13,7 @@
   * `%f` -> `float`
   * `%c` -> `char`
   * `%p` -> `pointer`
+  * `%s` -> `string` || []char
 
 
 
