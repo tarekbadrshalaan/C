@@ -45,3 +45,16 @@
         * float  *fp;    **pointer to a float**
         * char   *ch     **pointer to a character**
 
+
+* unions
+    * You're only supposed to read the field which was most recently written.
+
+    * Often used to convert between the binary representations of 
+    integers and floats,this is technically undefined behavior according to the C standard.
+
+    * Unions are also sometimes used to implement pseudo-polymorphism in C,
+    by giving a structure some tag indicating what type of object it contains,
+    and then unioning the possible types together.
+
+        REF. https://stackoverflow.com/questions/252552/why-do-we-need-c-unions
+ 
