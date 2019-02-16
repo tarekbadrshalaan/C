@@ -57,4 +57,21 @@
     and then unioning the possible types together.
 
         REF. https://stackoverflow.com/questions/252552/why-do-we-need-c-unions
- 
+
+* File I/O
+    ### Write file
+    * You can use the `fopen()` function to create a new file or to open an existing file.
+    * `FILE *fopen( const char * filename, const char * mode );`
+    * you have 6 modes to dial with file :-
+
+        1. `r` : Opens an existing text file for reading purpose.
+        2. `w` : Opens a text file for writing. If it does not exist, then a new file is created. Here your program will start writing content from the beginning of the file.
+        3. `a` : Opens a text file for writing in appending mode. If it does not exist, then a new file is created. Here your program will start appending content in the existing file content.
+        4. `r+` : Opens a text file for both reading and writing.
+        5. `w+` : Opens a text file for both reading and writing. It first truncates the file to zero length if it exists, otherwise creates a file if it does not exist.
+        6. `a+` : Opens a text file for both reading and writing. It creates the file if it does not exist. The reading will start from the beginning but writing can only be appended.
+    ### Read file
+    * you can use `fgets()` function to read file after open 
+    `char *fgets( char *buf, int n, FILE *fp );` it's return `NULL` when reach the "EOF".
+    * or use `fscanf()` function to read file after open 
+    `int *fgets( FILE *fp ,"%s",char *buf);`, it's return `1` when reach the "EOF".
